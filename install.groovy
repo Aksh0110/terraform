@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('git ,terraform install') {
             steps {
-                sh '''sudo yum install git terraform -y
+                sh '''sudo yum install git terraform docker -y
                       terraform
                       ls -al'''
             }
