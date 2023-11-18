@@ -1,2 +1,1 @@
-ls -a
-pwd
+sudo terraform init
