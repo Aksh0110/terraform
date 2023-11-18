@@ -1,1 +1,2 @@
-terraform init
+ls -a
+pwd
