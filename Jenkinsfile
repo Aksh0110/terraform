@@ -7,7 +7,10 @@ pipeline {
     stages {
         stage('terraform init') {
             steps {
-                sh ''' terraform init
+                sh ''' sudo cd /var/lib/jenkins/workspace/demo-web/
+                       terraform init
                        terraform plan '''
             }
         }
+    }
+}
