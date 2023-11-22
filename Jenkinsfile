@@ -9,7 +9,9 @@ pipeline {
             steps {
                 sh ''' sudo cd /var/lib/jenkins/workspace/demo-web/
                        terraform init
-                       terraform plan '''
+                       terraform plan
+                       terraform apply --auto-approve
+                '''
             }
         }
     }
