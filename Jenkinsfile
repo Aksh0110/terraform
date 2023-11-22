@@ -10,7 +10,7 @@ pipeline {
                 sh ''' sudo cd /var/lib/jenkins/workspace/demo-web/
                        terraform init
                        terraform plan
-                       terraform apply --auto-approve
+                       terraform destroy --auto-approve
                 '''
             }
         }
