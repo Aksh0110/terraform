@@ -15,3 +15,5 @@ resource "aws_instance" "demo-server" {
     Name = "demo-server"
   }
 }
+
+
